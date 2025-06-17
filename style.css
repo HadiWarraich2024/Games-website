@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+     background: conic-gradient(from 180deg at center, #fcb045, #fd1d1d, #833ab4, #45cafc, #fcb045);
+}
+
+.btn{
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 0.5em;
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    background-color: rgb(224, 73, 73);
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+
+.flash{
+    background-color: white;
+}
