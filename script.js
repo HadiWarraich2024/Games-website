@@ -29,6 +29,10 @@ function levelUp() {
     userSeq = [];
     level++;
     h2.innerText = `Level ${level}`;
+    
+    let msg = new SpeechSynthesisUtterance("Level " + level);
+    speechSynthesis.speak(msg);
+    
     let randIdx = Math.floor(Math.random() * 4);
     let randColor = btns[randIdx];
     let randbtn = document.querySelector(`.${randColor}`);
